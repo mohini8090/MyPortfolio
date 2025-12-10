@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Professional Developer</title>
+    <meta name="description" content="Professional portfolio showcasing my projects and skills">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">PORTFOLIO<span class="text-accent">.</span></a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Hello, I'm <span class="highlight">Mohini devi.</span></h1>
+            <h2>I have good knowledge about Java and web development </h2>
+            <p class="mb-2 text-center-secondary max-w-600">
+                <!-- I build exceptional digital experiences with modern technologies.
+                Focusing on accessible, pixel-perfect, and performant web applications. -->
+                I build exceptional digital experiences with modern technologies.
+
+
+            </p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <img src="IMG-20251125-WA002.jpg" alt="Profile" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3>Frontend & Java Expert</h3>
+                    <p>
+                        I am a passionate beginner web developer with knowledge of HTML, CSS, JavaScript, and Java. I
+                        enjoy creating clean and user-friendly
+                        websites and improving my coding skills every day. I love learning new technologies and building
+                        projects that solve real problems.
+                    </p>
+                    <p>
+                        I specialize in java and web development.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-intro">
+                <p class="mb-2 text-center-secondary">The technologies and tools I use to bring
+                    ideas to life.</p>
+                <div class="skills-container flex-center">
+                    <!-- Frontend -->
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript </span>
+
+                    <!-- Backend -->
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">MySQL</span>
+                    <!-- Tools -->
+                    <span class="skill-tag">Git</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Projects will be injected here by Javascript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="mb-3 text-center-secondary">
+                If you want to get in touch with me, please fill out the form below.
+            </p>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Mohini Devi">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="mohini809090@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> MOHINI DEVI. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/mohini8090" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohini-devi-715979327" class="social-icon"><i
+                        class="fab fa-linkedin"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- <script src="projects.js"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
