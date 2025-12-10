@@ -231,8 +231,8 @@ body {
 }
 
 .about-img {
-    width: 400px;
-    height: 800px;
+    width: 800px;
+    height: 1000px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
@@ -465,4 +465,5 @@ footer {
     color: var(--primary-accent);
 
 }
+
 
