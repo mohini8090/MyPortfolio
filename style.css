@@ -232,7 +232,7 @@ body {
 
 .about-img {
     width: 424px;
-    height: 854px;
+    height: 1054px;
     object-fit: cover;
     border-radius: 10%;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
@@ -465,6 +465,7 @@ footer {
     color: var(--primary-accent);
 
 }
+
 
 
 
